@@ -47,4 +47,4 @@ auto_unfollow_nonfollowers()
 '''
 
 from twitter_follow_bot import auto_rt
-auto_rt("sexy armpits, count=10)
+auto_rt("sexy armpits", count=10)
