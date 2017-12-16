@@ -25,22 +25,23 @@ auto_follow("armpits", count=50)
 '''
 #2 In this code, change "jwmares" to the twitter handle whose followers you want to follow, 
 and set the count to how many people should be followed. Default is 100.
-
-from twitter_follow_bot import auto_follow_followers_for_user
-auto_follow_followers_for_user("jwmares", count=10)
 '''
+'''from twitter_follow_bot import auto_follow_followers_for_user
+auto_follow_followers_for_user("jwmares", count=10)'''
 
 '''
 #3 This code will let you favoite things that are relevant to you. Just replace "phrase" with the phrase
 you want to favorite for, and set the count to how many things you want to favorite.
+'''
 
 from twitter_follow_bot import auto_fav
-auto_fav("phrase", count=100)
-'''
+auto_fav("armpits", count=100)
+
 
 '''
 #4 This code will automatically un-follow everyone who hasn't followed you back.
 
+''
 from twitter_follow_bot import auto_unfollow_nonfollowers
 auto_unfollow_nonfollowers()
 '''
