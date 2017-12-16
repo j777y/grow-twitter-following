@@ -20,7 +20,7 @@ with something relevant to you! Also you can set the count to whatever makes you
 '''
 
 from twitter_follow_bot import auto_follow
-auto_follow("", count=50)
+auto_follow("armpits", count=50)
 
 '''
 #2 In this code, change "jwmares" to the twitter handle whose followers you want to follow, 
