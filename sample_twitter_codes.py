@@ -20,14 +20,15 @@ with something relevant to you! Also you can set the count to whatever makes you
 '''
 
 from twitter_follow_bot import auto_follow
-auto_follow("armpits", count=10)
+auto_follow("female armpits", count=10)
+auto_follow("celebs", count=10)
 
 '''
 #2 In this code, change "jwmares" to the twitter handle whose followers you want to follow, 
 and set the count to how many people should be followed. Default is 100.
 '''
-'''from twitter_follow_bot import auto_follow_followers_for_user
-auto_follow_followers_for_user("jwmares", count=10)'''
+from twitter_follow_bot import auto_follow_followers_for_user
+auto_follow_followers_for_user("sophiawwood", count=10)
 
 '''
 #3 This code will let you favoite things that are relevant to you. Just replace "phrase" with the phrase
@@ -35,7 +36,7 @@ you want to favorite for, and set the count to how many things you want to favor
 '''
 
 from twitter_follow_bot import auto_fav
-auto_fav("armpits", count=10)
+auto_fav("female armpits", count=10)
 
 
 '''
@@ -47,4 +48,4 @@ auto_unfollow_nonfollowers()
 '''
 
 from twitter_follow_bot import auto_rt
-auto_rt("sexy armpits", count=10)
+auto_rt("female armpits", count=10)
