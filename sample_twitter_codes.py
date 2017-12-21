@@ -42,10 +42,10 @@ auto_fav("female armpits", count=10)
 '''
 #4 This code will automatically un-follow everyone who hasn't followed you back.
 
-''
+'''
+
 from twitter_follow_bot import auto_unfollow_nonfollowers
 auto_unfollow_nonfollowers()
-'''
 
 from twitter_follow_bot import auto_rt
 auto_rt("female armpits", count=10)
