@@ -21,6 +21,8 @@ with something relevant to you! Also you can set the count to whatever makes you
 from twitter_follow_bot import auto_follow
 auto_follow("viral", count=10)
 
+from twitter_follow_bot import auto_rt 
+auto_rt("viral", count=10)
 
 '''
 #2 In this code, change "jwmares" to the twitter handle whose followers you want to follow, 
