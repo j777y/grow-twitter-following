@@ -19,10 +19,13 @@ Justin and Nat
 with something relevant to you! Also you can set the count to whatever makes you most comfortable.
 '''
 from twitter_follow_bot import auto_follow
-auto_follow("viral", count=10)
+auto_follow("viral", count=50)
 
 from twitter_follow_bot import auto_rt 
-auto_rt("viral", count=10)
+auto_rt("viral", count=50)
+
+from twitter_follow_bot import auto_rt 
+auto_rt("funnyvideos", count=50)
 
 '''
 #2 In this code, change "jwmares" to the twitter handle whose followers you want to follow, 
@@ -42,7 +45,6 @@ auto_fav("phrase", count=100)
 
 '''
 #4 This code will automatically un-follow everyone who hasn't followed you back.
-
+'''
 from twitter_follow_bot import auto_unfollow_nonfollowers
 auto_unfollow_nonfollowers()
-'''
