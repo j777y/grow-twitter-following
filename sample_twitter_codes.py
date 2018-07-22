@@ -18,14 +18,14 @@ Justin and Nat
 #1 Here you can automatically follow people who tweet about a certain phrase. Just replace the phrase
 with something relevant to you! Also you can set the count to whatever makes you most comfortable.
 '''
-from twitter_follow_bot import auto_follow
-auto_follow("viral", count=50)
+from twitter_follofolloww_bot import auto_follow
+auto_follow("viralviralviralvideos", count=10)
 
 from twitter_follow_bot import auto_rt 
-auto_rt("viral", count=50)
+auto_rt("viralvideos", count=10)
 
 from twitter_follow_bot import auto_rt 
-auto_rt("funnyvideos", count=50)
+auto_rt("funnyvideos", count=10)
 
 '''
 #2 In this code, change "jwmares" to the twitter handle whose followers you want to follow, 
@@ -46,5 +46,6 @@ auto_fav("phrase", count=100)
 '''
 #4 This code will automatically un-follow everyone who hasn't followed you back.
 '''
+
 from twitter_follow_bot import auto_unfollow_nonfollowers
 auto_unfollow_nonfollowers()
