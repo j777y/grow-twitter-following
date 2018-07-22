@@ -18,7 +18,7 @@ Justin and Nat
 #1 Here you can automatically follow people who tweet about a certain phrase. Just replace the phrase
 with something relevant to you! Also you can set the count to whatever makes you most comfortable.
 '''
-from twitter_follofolloww_bot import auto_follow
+from twitter_follow_bot import auto_follow
 auto_follow("viralviralviralvideos", count=10)
 
 from twitter_follow_bot import auto_rt 
