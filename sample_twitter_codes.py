@@ -22,9 +22,6 @@ from twitter_follow_bot import auto_follow
 auto_follow("viralvideos", count=10)
 
 from twitter_follow_bot import auto_rt 
-auto_rt("viralvideos", count=10)
-
-from twitter_follow_bot import auto_rt 
 auto_rt("funnyvideos", count=10)
 
 '''
