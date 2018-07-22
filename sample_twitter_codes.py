@@ -19,7 +19,7 @@ Justin and Nat
 with something relevant to you! Also you can set the count to whatever makes you most comfortable.
 '''
 from twitter_follow_bot import auto_follow
-auto_follow("viralvideos", count=50)
+auto_follow("viralvideos", count=10)
 
 from twitter_follow_bot import auto_rt 
 auto_rt("viralvideos", count=10)
